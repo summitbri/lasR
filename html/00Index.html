@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head><title>R: Fast and Pipeable Airborne LiDAR Data Tools</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+<h1> Fast and Pipeable Airborne LiDAR Data Tools
+<img class="toplogo" src="../../../doc/html/Rlogo.svg" alt="[R logo]" />
+</h1>
+<hr/>
+<div style="text-align: center;">
+<a href="../../../doc/html/packages.html"><img class="arrow" src="../../../doc/html/left.jpg" alt="[Up]" /></a>
+<a href="../../../doc/html/index.html"><img class="arrow" src="../../../doc/html/up.jpg" alt="[Top]" /></a>
+</div><h2>Documentation for package &lsquo;lasR&rsquo; version 0.12.1</h2>
+
+<ul><li><a href="../DESCRIPTION">DESCRIPTION file</a>.</li>
+<li><a href="../doc/index.html">User guides, package vignettes and other documentation.</a></li>
+<li><a href="../NEWS">Package NEWS</a>.</li>
+</ul>
+
+<h2>Help Pages</h2>
+
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="lasR-package.html">lasR-package</a></td>
+<td>lasR: airborne LiDAR for forestry applications</td></tr>
+<tr><td style="width: 25%;"><a href="filters.html">+.laslibfilter</a></td>
+<td>Point Filters</td></tr>
+<tr><td style="width: 25%;"><a href="tools.html">+.LASRpipeline</a></td>
+<td>Tools inherited from base R</td></tr>
+<tr><td style="width: 25%;"><a href="add_extrabytes.html">add_extrabytes</a></td>
+<td>Add attributes to a LAS file</td></tr>
+<tr><td style="width: 25%;"><a href="add_rgb.html">add_rgb</a></td>
+<td>Add RGB attributes to a LAS file</td></tr>
+<tr><td style="width: 25%;"><a href="tools.html">c.LASRpipeline</a></td>
+<td>Tools inherited from base R</td></tr>
+<tr><td style="width: 25%;"><a href="callback.html">callback</a></td>
+<td>Call a user-defined function on the point cloud</td></tr>
+<tr><td style="width: 25%;"><a href="chm.html">chm</a></td>
+<td>Canopy Height Model</td></tr>
+<tr><td style="width: 25%;"><a href="classify_with_csf.html">classify_with_csf</a></td>
+<td>Classify ground points</td></tr>
+<tr><td style="width: 25%;"><a href="classify_with_ivf.html">classify_with_ivf</a></td>
+<td>Classify noise points</td></tr>
+<tr><td style="width: 25%;"><a href="classify_with_sor.html">classify_with_sor</a></td>
+<td>Classify noise points</td></tr>
+<tr><td style="width: 25%;"><a href="multithreading.html">concurrent_files</a></td>
+<td>Parallel processing tools</td></tr>
+<tr><td style="width: 25%;"><a href="multithreading.html">concurrent_points</a></td>
+<td>Parallel processing tools</td></tr>
+<tr><td style="width: 25%;"><a href="delete_points.html">delete_ground</a></td>
+<td>Filter and delete points</td></tr>
+<tr><td style="width: 25%;"><a href="delete_points.html">delete_noise</a></td>
+<td>Filter and delete points</td></tr>
+<tr><td style="width: 25%;"><a href="delete_points.html">delete_points</a></td>
+<td>Filter and delete points</td></tr>
+<tr><td style="width: 25%;"><a href="filters.html">drop_class</a></td>
+<td>Point Filters</td></tr>
+<tr><td style="width: 25%;"><a href="filters.html">drop_duplicates</a></td>
+<td>Point Filters</td></tr>
+<tr><td style="width: 25%;"><a href="filters.html">drop_first</a></td>
+<td>Point Filters</td></tr>
+<tr><td style="width: 25%;"><a href="filters.html">drop_ground</a></td>
+<td>Point Filters</td></tr>
+<tr><td style="width: 25%;"><a href="filters.html">drop_noise</a></td>
+<td>Point Filters</td></tr>
+<tr><td style="width: 25%;"><a href="filters.html">drop_z_above</a></td>
+<td>Point Filters</td></tr>
+<tr><td style="width: 25%;"><a href="filters.html">drop_z_below</a></td>
+<td>Point Filters</td></tr>
+<tr><td style="width: 25%;"><a href="dtm.html">dtm</a></td>
+<td>Digital Terrain Model</td></tr>
+<tr><td style="width: 25%;"><a href="exec.html">exec</a></td>
+<td>Process the pipeline</td></tr>
+<tr><td style="width: 25%;"><a href="filters.html">filters</a></td>
+<td>Point Filters</td></tr>
+<tr><td style="width: 25%;"><a href="filter_with_grid.html">filter_with_grid</a></td>
+<td>Select highest or lowest points</td></tr>
+<tr><td style="width: 25%;"><a href="focal.html">focal</a></td>
+<td>Calculate focal ("moving window") values for each cell of a raster</td></tr>
+<tr><td style="width: 25%;"><a href="geometry_features.html">geometry_features</a></td>
+<td>Compute pointwise geometry features</td></tr>
+<tr><td style="width: 25%;"><a href="multithreading.html">get_parallel_strategy</a></td>
+<td>Parallel processing tools</td></tr>
+<tr><td style="width: 25%;"><a href="hag.html">hag</a></td>
+<td>Height Above Ground (HAG)</td></tr>
+<tr><td style="width: 25%;"><a href="multithreading.html">half_cores</a></td>
+<td>Parallel processing tools</td></tr>
+<tr><td style="width: 25%;"><a href="multithreading.html">has_omp_support</a></td>
+<td>Parallel processing tools</td></tr>
+<tr><td style="width: 25%;"><a href="hulls.html">hulls</a></td>
+<td>Contour of a point cloud</td></tr>
+<tr><td style="width: 25%;"><a href="info.html">info</a></td>
+<td>Print Information about the Point Cloud</td></tr>
+<tr><td style="width: 25%;"><a href="install_cmd_tools.html">install_cmd_tools</a></td>
+<td>Use some lasR features from a terminal</td></tr>
+<tr><td style="width: 25%;"><a href="filters.html">keep_class</a></td>
+<td>Point Filters</td></tr>
+<tr><td style="width: 25%;"><a href="filters.html">keep_first</a></td>
+<td>Point Filters</td></tr>
+<tr><td style="width: 25%;"><a href="filters.html">keep_ground</a></td>
+<td>Point Filters</td></tr>
+<tr><td style="width: 25%;"><a href="filters.html">keep_ground_and_water</a></td>
+<td>Point Filters</td></tr>
+<tr><td style="width: 25%;"><a href="filters.html">keep_noise</a></td>
+<td>Point Filters</td></tr>
+<tr><td style="width: 25%;"><a href="filters.html">keep_z_above</a></td>
+<td>Point Filters</td></tr>
+<tr><td style="width: 25%;"><a href="filters.html">keep_z_below</a></td>
+<td>Point Filters</td></tr>
+<tr><td style="width: 25%;"><a href="lasR-package.html">lasR</a></td>
+<td>lasR: airborne LiDAR for forestry applications</td></tr>
+<tr><td style="width: 25%;"><a href="load_raster.html">load_raster</a></td>
+<td>Load a raster for later use</td></tr>
+<tr><td style="width: 25%;"><a href="local_maximum.html">local_maximum</a></td>
+<td>Local Maximum</td></tr>
+<tr><td style="width: 25%;"><a href="local_maximum.html">local_maximum_raster</a></td>
+<td>Local Maximum</td></tr>
+<tr><td style="width: 25%;"><a href="metric_engine.html">metric_engine</a></td>
+<td>Metric engine</td></tr>
+<tr><td style="width: 25%;"><a href="multithreading.html">multithreading</a></td>
+<td>Parallel processing tools</td></tr>
+<tr><td style="width: 25%;"><a href="multithreading.html">ncores</a></td>
+<td>Parallel processing tools</td></tr>
+<tr><td style="width: 25%;"><a href="multithreading.html">nested</a></td>
+<td>Parallel processing tools</td></tr>
+<tr><td style="width: 25%;"><a href="hag.html">normalize</a></td>
+<td>Height Above Ground (HAG)</td></tr>
+<tr><td style="width: 25%;"><a href="pit_fill.html">pit_fill</a></td>
+<td>Pits and spikes filling</td></tr>
+<tr><td style="width: 25%;"><a href="filters.html">print.laslibfilter</a></td>
+<td>Point Filters</td></tr>
+<tr><td style="width: 25%;"><a href="tools.html">print.LASRalgorithm</a></td>
+<td>Tools inherited from base R</td></tr>
+<tr><td style="width: 25%;"><a href="tools.html">print.LASRpipeline</a></td>
+<td>Tools inherited from base R</td></tr>
+<tr><td style="width: 25%;"><a href="rasterize.html">rasterize</a></td>
+<td>Rasterize a point cloud</td></tr>
+<tr><td style="width: 25%;"><a href="reader_las.html">reader_las</a></td>
+<td>Initialize the pipeline</td></tr>
+<tr><td style="width: 25%;"><a href="reader_las.html">reader_las_circles</a></td>
+<td>Initialize the pipeline</td></tr>
+<tr><td style="width: 25%;"><a href="reader_las.html">reader_las_coverage</a></td>
+<td>Initialize the pipeline</td></tr>
+<tr><td style="width: 25%;"><a href="reader_las.html">reader_las_rectangles</a></td>
+<td>Initialize the pipeline</td></tr>
+<tr><td style="width: 25%;"><a href="region_growing.html">region_growing</a></td>
+<td>Region growing</td></tr>
+<tr><td style="width: 25%;"><a href="sampling.html">sampling_pixel</a></td>
+<td>Sample the point cloud</td></tr>
+<tr><td style="width: 25%;"><a href="sampling.html">sampling_poisson</a></td>
+<td>Sample the point cloud</td></tr>
+<tr><td style="width: 25%;"><a href="sampling.html">sampling_voxel</a></td>
+<td>Sample the point cloud</td></tr>
+<tr><td style="width: 25%;"><a href="multithreading.html">sequential</a></td>
+<td>Parallel processing tools</td></tr>
+<tr><td style="width: 25%;"><a href="set_crs.html">set_crs</a></td>
+<td>Set the CRS of the pipeline</td></tr>
+<tr><td style="width: 25%;"><a href="set_exec_options.html">set_exec_options</a></td>
+<td>Set global processing options</td></tr>
+<tr><td style="width: 25%;"><a href="multithreading.html">set_parallel_strategy</a></td>
+<td>Parallel processing tools</td></tr>
+<tr><td style="width: 25%;"><a href="sort_points.html">sort_points</a></td>
+<td>Sort points in the point cloud</td></tr>
+<tr><td style="width: 25%;"><a href="stop_if_outside.html">stop_if_outside</a></td>
+<td>Stop the pipeline if a conditionally</td></tr>
+<tr><td style="width: 25%;"><a href="summarise.html">summarise</a></td>
+<td>Summary</td></tr>
+<tr><td style="width: 25%;"><a href="temporary_files.html">tempgpkg</a></td>
+<td>Temporary files</td></tr>
+<tr><td style="width: 25%;"><a href="temporary_files.html">templas</a></td>
+<td>Temporary files</td></tr>
+<tr><td style="width: 25%;"><a href="temporary_files.html">templaz</a></td>
+<td>Temporary files</td></tr>
+<tr><td style="width: 25%;"><a href="temporary_files.html">temporary_files</a></td>
+<td>Temporary files</td></tr>
+<tr><td style="width: 25%;"><a href="temporary_files.html">tempshp</a></td>
+<td>Temporary files</td></tr>
+<tr><td style="width: 25%;"><a href="temporary_files.html">temptif</a></td>
+<td>Temporary files</td></tr>
+<tr><td style="width: 25%;"><a href="tools.html">tools</a></td>
+<td>Tools inherited from base R</td></tr>
+<tr><td style="width: 25%;"><a href="transform_with.html">transform_with</a></td>
+<td>Transform a Point Cloud Using Another Stage</td></tr>
+<tr><td style="width: 25%;"><a href="triangulate.html">triangulate</a></td>
+<td>Delaunay triangulation</td></tr>
+<tr><td style="width: 25%;"><a href="set_exec_options.html">unset_exec_option</a></td>
+<td>Set global processing options</td></tr>
+<tr><td style="width: 25%;"><a href="multithreading.html">unset_parallel_strategy</a></td>
+<td>Parallel processing tools</td></tr>
+<tr><td style="width: 25%;"><a href="write_las.html">write_las</a></td>
+<td>Write LAS or LAZ files</td></tr>
+<tr><td style="width: 25%;"><a href="write_lax.html">write_lax</a></td>
+<td>Write spatial indexing .lax files</td></tr>
+<tr><td style="width: 25%;"><a href="write_vpc.html">write_vpc</a></td>
+<td>Write a Virtual Point Cloud</td></tr>
+</table>
+</div></body></html>

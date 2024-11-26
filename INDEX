@@ -1,0 +1,41 @@
+add_extrabytes          Add attributes to a LAS file
+add_rgb                 Add RGB attributes to a LAS file
+callback                Call a user-defined function on the point cloud
+chm                     Canopy Height Model
+classify_with_csf       Classify ground points
+classify_with_ivf       Classify noise points
+classify_with_sor       Classify noise points
+delete_points           Filter and delete points
+dtm                     Digital Terrain Model
+exec                    Process the pipeline
+filter_with_grid        Select highest or lowest points
+filters                 Point Filters
+focal                   Calculate focal ("moving window") values for
+                        each cell of a raster
+geometry_features       Compute pointwise geometry features
+hulls                   Contour of a point cloud
+info                    Print Information about the Point Cloud
+install_cmd_tools       Use some lasR features from a terminal
+lasR-package            lasR: airborne LiDAR for forestry applications
+load_raster             Load a raster for later use
+local_maximum           Local Maximum
+metric_engine           Metric engine
+multithreading          Parallel processing tools
+normalize               Height Above Ground (HAG)
+pit_fill                Pits and spikes filling
+rasterize               Rasterize a point cloud
+reader_las              Initialize the pipeline
+region_growing          Region growing
+sampling_voxel          Sample the point cloud
+set_crs                 Set the CRS of the pipeline
+set_exec_options        Set global processing options
+sort_points             Sort points in the point cloud
+stop_if_outside         Stop the pipeline if a conditionally
+summarise               Summary
+temporary_files         Temporary files
+tools                   Tools inherited from base R
+transform_with          Transform a Point Cloud Using Another Stage
+triangulate             Delaunay triangulation
+write_las               Write LAS or LAZ files
+write_lax               Write spatial indexing .lax files
+write_vpc               Write a Virtual Point Cloud

@@ -1,0 +1,54 @@
+Package: lasR
+Type: Package
+Version: 0.12.1
+Title: Fast and Pipeable Airborne LiDAR Data Tools
+Authors@R: c(
+    person("Jean-Romain", "Roussel", email = "info@r-lidar.com", role = c("aut", "cre", "cph")),
+    person("Martin", "Isenburg", email = "", role = "cph", comment = "Is the author of the included LASlib and LASzip libraries"),
+    person("Benoît", "St-Onge", email = "", role = "cph", comment = "Is the author of the included 'chm_prep' function"),
+    person("Niels", "Lohmann", email = "", role = "cph", comment = "Is the author of the included json parser"),
+    person("Volodymyr", "Bilonenko", email = "", role = "cph", comment = "Is the author of the included delaunator triangulation"),
+    person("State Key Laboratory of Remote Sensing Science, Institute of Remote Sensing Science and Engineering, Beijing Normal University", "", email = "", role = "cph", comment = "Is the copyright holder of the included CSF"),
+    person("Authors of", "Eigen", role = "cph", comment = "Authorship and copyright in included Eigen library as detailed in inst/COPYRIGHTS"))
+Description: Fast and pipeable airborne lidar processing tools.
+        Read/write 'las' and 'laz' files, computation of metrics in
+        area based approach, point filtering, normalization, individual
+        tree segmentation and other manipulations in a powerful and
+        versatile processing chain.
+URL: https://github.com/r-lidar/lasR
+BugReports: https://github.com/r-lidar/lasR/issues
+License: GPL-3 + file LICENSE
+Depends: R (>= 3.6.0)
+Imports: methods, utils, stats
+Suggests: knitr, rmarkdown, sf, terra, testthat (>= 3.0.0),
+RoxygenNote: 7.3.1
+SystemRequirements: C++17, GDAL (>= 2.2.3), GEOS (>= 3.4.0), PROJ (>=
+        4.9.3), sqlite3, GNU make
+Encoding: UTF-8
+Language: en-US
+Config/testthat/edition: 3
+VignetteBuilder: knitr
+Config/pak/sysreqs: libgdal-dev gdal-bin libgeos-dev make libproj-dev
+        libsqlite3-dev
+Repository: https://r-lidar.r-universe.dev
+RemoteUrl: https://github.com/r-lidar/lasR
+RemoteRef: HEAD
+RemoteSha: 760b3979d9b25931bd0124a375b64131555f453d
+NeedsCompilation: yes
+Packaged: 2024-11-20 18:35:47 UTC; root
+Author: Jean-Romain Roussel [aut, cre, cph],
+  Martin Isenburg [cph] (Is the author of the included LASlib and LASzip
+    libraries),
+  Benoît St-Onge [cph] (Is the author of the included 'chm_prep'
+    function),
+  Niels Lohmann [cph] (Is the author of the included json parser),
+  Volodymyr Bilonenko [cph] (Is the author of the included delaunator
+    triangulation),
+  State Key Laboratory of Remote Sensing Science, Institute of Remote
+    Sensing Science and Engineering, Beijing Normal University [cph]
+    (Is the copyright holder of the included CSF),
+  Authors of Eigen [cph] (Authorship and copyright in included Eigen
+    library as detailed in inst/COPYRIGHTS)
+Maintainer: Jean-Romain Roussel <info@r-lidar.com>
+Built: R 4.4.2; x86_64-w64-mingw32; 2024-11-20 18:41:04 UTC; windows
+Archs: x64
